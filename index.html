@@ -41,7 +41,7 @@
         <main>
             <section class="container mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 text-center md:text-right mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">اكتشف هاتف موتورولا G9 الجديد</h1>
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">اكتشف هاتف موتورولا G9 play الجديد</h1>
                     <p class="text-lg text-gray-600 mb-8">قوة مذهلة، كاميرا بدقة 48 ميجابكسل وبطارية تدوم لأيام. كل هذا بسعر سيفاجئك.</p>
                     <a href="#buy" id="hero-buy-button" class="cursor-pointer bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
                         اشتر الآن
@@ -96,15 +96,18 @@
                 <div class="container mx-auto px-6 text-center">
                     <h2 class="text-3xl font-bold mb-12">تصميم أنيق</h2>
                      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                         <img src="/front.webp">
-                         <img src="/back.jpg">
+                         <img src="/front.webp" class="rounded-lg shadow-lg w-full h-full object-cover">
+                         <img src="/back.jpg" class="rounded-lg shadow-lg w-full h-full object-cover">
+                         <img src="/side.jpeg" class="rounded-lg shadow-lg w-full h-full object-cover sm:col-span-2 lg:col-span-1">
+
+
                      </div>
                 </div>
             </section>
 
             <section id="buy" class="bg-blue-600 text-white">
                 <div class="container mx-auto px-6 py-20 text-center">
-                    <h2 class="text-4xl font-bold mb-4">هل أنت مستعد لتجربة Moto G9؟</h2>
+                    <h2 class="text-4xl font-bold mb-4">هل أنت مستعد لتجربة Moto G9 play؟</h2>
                     <p class="text-xl mb-8 opacity-90">لا تفوت هذا العرض الاستثنائي.</p>
                     <div class="bg-white text-gray-900 inline-block p-6 rounded-lg shadow-xl mb-8">
                         <span class="text-4xl font-bold">فقط بـ 20000 دج</span>
@@ -163,7 +166,7 @@
 
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2025 موتورولا موبيليتي. جميع الحقوق محفوظة.</p>
+            <p>&copy; 2025 zumaphone جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
@@ -208,12 +211,9 @@
         const orderForm = document.getElementById('order-form');
 
         orderForm.addEventListener('submit', (event) => {
-            event.preventDefault(); // Prevent the form from submitting traditionally
-
-            // !!! IMPORTANT: Replace this with your WhatsApp number !!!
-            // Use the international format without '+' or '00'. For example: 213541397454 for an Algerian number.
-            const yourWhatsAppNumber = '213541397454'; // <--- CHANGE THIS NUMBER
-
+            event.preventDefault(); 
+            
+            const yourWhatsAppNumber = '213541397454'; 
             // Get form values
             const fullName = document.getElementById('fullName').value;
             const phoneNumber = document.getElementById('phoneNumber').value;
@@ -222,9 +222,10 @@
 
             // Create the message
             const message = `
+ -- zumaphone ---
 مرحبًا، أود أن أطلب:
 ---------------------------------
-المنتج: Motorola G9
+المنتج: Motorola G9 play
 الكمية: ${quantity}
 ---------------------------------
 معلوماتي:
