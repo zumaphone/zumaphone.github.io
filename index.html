@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorola Moto G9 - Page de Vente</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Use Inter as the default font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">
+                Moto G9
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Caractéristiques</a></li>
+                <li><a href="#gallery" class="text-gray-600 hover:text-blue-600 transition duration-300">Galerie</a></li>
+                <li><a href="#buy" id="nav-buy-button" class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Acheter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Landing Page Content -->
+    <div id="main-page">
+        <main>
+            <!-- Hero Section -->
+            <section class="container mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">Découvrez le nouveau Motorola G9</h1>
+                    <p class="text-lg text-gray-600 mb-8">Une puissance incroyable, un appareil photo de 48 MP et une batterie qui dure des jours. Le tout à un prix qui vous surprendra.</p>
+                    <a href="#buy" id="hero-buy-button" class="cursor-pointer bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                        Acheter maintenant
+                    </a>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <!-- Phone Image -->
+                    <img src="https://placehold.co/350x500/E2E8F0/4A5568?text=Moto+G9" 
+                         alt="Téléphone Motorola G9" 
+                         class="max-w-xs md:max-w-sm rounded-lg shadow-2xl"
+                         onerror="this.onerror=null;this.src='https://placehold.co/350x500/E2E8F0/4A5568?text=Image+Indisponible';">
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features" class="bg-white py-20">
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-3xl font-bold mb-2">Caractéristiques Clés</h2>
+                    <p class="text-gray-500 mb-12">Tout ce dont vous avez besoin dans un smartphone.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                        <!-- Feature 1: Camera -->
+                        <div class="feature-item">
+                            <div class="text-blue-600 mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Appareil Photo 48 MP</h3>
+                            <p class="text-gray-600">Capturez des photos incroyablement nettes et des vidéos fluides, de jour comme de nuit.</p>
+                        </div>
+                        <!-- Feature 2: Battery -->
+                        <div class="feature-item">
+                            <div class="text-blue-600 mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Batterie Longue Durée</h3>
+                            <p class="text-gray-600">Profitez de jusqu'à 2 jours d'autonomie avec une seule charge grâce à la batterie de 5000 mAh.</p>
+                        </div>
+                        <!-- Feature 3: Screen -->
+                        <div class="feature-item">
+                            <div class="text-blue-600 mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2">Écran Max Vision 6.5"</h3>
+                            <p class="text-gray-600">Plongez au cœur de vos films et jeux préférés avec un écran ultra-large et immersif.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Gallery Section -->
+            <section id="gallery" class="py-20">
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-3xl font-bold mb-12">Un Design Élégant</h2>
+                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <img src="https://placehold.co/600x400/E2E8F0/4A5568?text=Vue+Avant" alt="Moto G9 vue de face" class="rounded-lg shadow-lg w-full h-full object-cover">
+                        <img src="https://placehold.co/600x400/D1D5DB/4A5568?text=Vue+Arrière" alt="Moto G9 vue de dos" class="rounded-lg shadow-lg w-full h-full object-cover">
+                        <img src="https://placehold.co/600x400/9CA3AF/4A5568?text=Vue+de+Côté" alt="Moto G9 vue de côté" class="rounded-lg shadow-lg w-full h-full object-cover sm:col-span-2 lg:col-span-1">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buy Now Section -->
+            <section id="buy" class="bg-blue-600 text-white">
+                <div class="container mx-auto px-6 py-20 text-center">
+                    <h2 class="text-4xl font-bold mb-4">Prêt à passer au Moto G9 ?</h2>
+                    <p class="text-xl mb-8 opacity-90">Ne manquez pas cette offre exceptionnelle.</p>
+                    <div class="bg-white text-gray-900 inline-block p-6 rounded-lg shadow-xl mb-8">
+                        <span class="text-4xl font-bold">Seulement 199€</span>
+                    </div>
+                    <div>
+                         <button id="cta-buy-button" class="bg-white text-blue-600 font-bold py-3 px-10 rounded-full text-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105">
+                            Commander le Vôtre
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Order Form Page -->
+    <div id="form-page" class="hidden">
+        <main class="container mx-auto px-6 py-16 md:py-24 flex flex-col items-center">
+            <div class="w-full max-w-lg">
+                <div class="bg-white p-8 rounded-xl shadow-2xl">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-3xl font-bold text-gray-900">Finaliser votre commande</h2>
+                        <button id="back-button" class="text-gray-500 hover:text-gray-800">&larr; Retour</button>
+                    </div>
+                    <p class="text-gray-600 mb-8">Veuillez remplir vos informations pour compléter la commande.</p>
+                    
+                    <form id="order-form" class="space-y-6">
+                        <div>
+                            <label for="fullName" class="block text-sm font-medium text-gray-700">Nom complet</label>
+                            <input type="text" id="fullName" name="fullName" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phoneNumber" class="block text-sm font-medium text-gray-700">Numéro de téléphone</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+
+                        <div>
+                            <label for="address" class="block text-sm font-medium text-gray-700">Adresse de livraison</label>
+                            <textarea id="address" name="address" rows="3" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+
+                        <div>
+                            <label for="quantity" class="block text-sm font-medium text-gray-700">Quantité</label>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1" max="10" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+
+                        <div>
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-full shadow-sm text-lg font-medium text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-300">
+                                Envoyer via WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Motorola Mobility LLC. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Page Navigation ---
+        const mainPage = document.getElementById('main-page');
+        const formPage = document.getElementById('form-page');
+        const backButton = document.getElementById('back-button');
+        
+        // Get all buttons that should lead to the form
+        const buyButtons = [
+            document.getElementById('nav-buy-button'),
+            document.getElementById('hero-buy-button'),
+            document.getElementById('cta-buy-button')
+        ];
+
+        // Function to show the form page
+        const showForm = () => {
+            mainPage.classList.add('hidden');
+            formPage.classList.remove('hidden');
+            window.scrollTo(0, 0); // Scroll to top
+        };
+
+        // Function to show the main page
+        const showMainPage = () => {
+            formPage.classList.add('hidden');
+            mainPage.classList.remove('hidden');
+        };
+
+        // Add event listeners to all buy buttons
+        buyButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor behavior
+                showForm();
+            });
+        });
+
+        // Add event listener for the back button
+        backButton.addEventListener('click', showMainPage);
+
+        // --- Form Submission to WhatsApp ---
+        const orderForm = document.getElementById('order-form');
+
+        orderForm.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent the form from submitting traditionally
+
+            // !!! IMPORTANT: Replace this with your WhatsApp number !!!
+            // Use the international format without '+' or '00'. For example: 33612345678 for a French number.
+            const yourWhatsAppNumber = '1234567890'; // <--- CHANGE THIS NUMBER
+
+            // Get form values
+            const fullName = document.getElementById('fullName').value;
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            const address = document.getElementById('address').value;
+            const quantity = document.getElementById('quantity').value;
+
+            // Create the message
+            const message = `
+Bonjour, je souhaite commander :
+---------------------------------
+Produit: Motorola G9
+Quantité: ${quantity}
+---------------------------------
+Mes informations :
+Nom complet: ${fullName}
+Numéro de téléphone: ${phoneNumber}
+Adresse: ${address}
+            `;
+
+            // Encode the message for the URL
+            const encodedMessage = encodeURIComponent(message.trim());
+
+            // Create the WhatsApp URL
+            const whatsappURL = `https://wa.me/${yourWhatsAppNumber}?text=${encodedMessage}`;
+
+            // Redirect the user to WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
+
+</body>
+</html>
