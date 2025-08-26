@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motorola Moto G9 Play- Page de Vente</title>
+    <title>موتورولا موتو جي 9 بلاي - صفحة البيع</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* Use Inter as the default font */
+        /* Use Cairo as the default font */
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Cairo', sans-serif;
         }
         /* Simple smooth scroll behavior */
         html {
@@ -26,48 +24,42 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-2xl font-bold text-blue-600">
                 Zumaphone
             </div>
             <ul class="flex space-x-6">
-                <li><a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Caractéristiques</a></li>
-                <li><a href="#gallery" class="text-gray-600 hover:text-blue-600 transition duration-300">Galerie</a></li>
-                <li><a href="#buy" id="nav-buy-button" class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Acheter</a></li>
+                <li><a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">المميزات</a></li>
+                <li><a href="#gallery" class="text-gray-600 hover:text-blue-600 transition duration-300">المعرض</a></li>
+                <li><a href="#buy" id="nav-buy-button" class="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">شراء</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Landing Page Content -->
     <div id="main-page">
         <main>
-            <!-- Hero Section -->
             <section class="container mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">Découvrez le nouveau Motorola G9</h1>
-                    <p class="text-lg text-gray-600 mb-8">Une puissance incroyable, un appareil photo de 48 MP et une batterie qui dure des jours. Le tout à un prix qui vous surprendra.</p>
+                <div class="md:w-1/2 text-center md:text-right mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">اكتشف هاتف موتورولا G9 الجديد</h1>
+                    <p class="text-lg text-gray-600 mb-8">قوة مذهلة، كاميرا بدقة 48 ميجابكسل وبطارية تدوم لأيام. كل هذا بسعر سيفاجئك.</p>
                     <a href="#buy" id="hero-buy-button" class="cursor-pointer bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
-                        Acheter maintenant
+                        اشتر الآن
                     </a>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <!-- Phone Image -->
                     <img src="/4689.png" 
-                         alt="Téléphone Motorola G9" 
+                         alt="هاتف موتورولا G9" 
                          class="max-w-xs md:max-w-sm rounded-lg shadow-2xl"
                          onerror="this.onerror=null;this.src='https://placehold.co/350x500/E2E8F0/4A5568?text=Image+Indisponible';">
                 </div>
             </section>
 
-            <!-- Features Section -->
             <section id="features" class="bg-white py-20">
                 <div class="container mx-auto px-6 text-center">
-                    <h2 class="text-3xl font-bold mb-2">Caractéristiques Clés</h2>
-                    <p class="text-gray-500 mb-12">Tout ce dont vous avez besoin dans un smartphone.</p>
+                    <h2 class="text-3xl font-bold mb-2">المميزات الرئيسية</h2>
+                    <p class="text-gray-500 mb-12">كل ما تحتاجه في هاتف ذكي.</p>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                        <!-- Feature 1: Camera -->
                         <div class="feature-item">
                             <div class="text-blue-600 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -75,97 +67,92 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold mb-2">Appareil Photo 48 MP</h3>
-                            <p class="text-gray-600">Capturez des photos incroyablement nettes et des vidéos fluides, de jour comme de nuit.</p>
+                            <h3 class="text-xl font-semibold mb-2">كاميرا بدقة 48 ميجابكسل</h3>
+                            <p class="text-gray-600">التقط صورًا فائقة الوضوح ومقاطع فيديو سلسة، ليلاً ونهارًا.</p>
                         </div>
-                        <!-- Feature 2: Battery -->
                         <div class="feature-item">
                             <div class="text-blue-600 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold mb-2">Batterie Longue Durée</h3>
-                            <p class="text-gray-600">Profitez de jusqu'à 2 jours d'autonomie avec une seule charge grâce à la batterie de 5000 mAh.</p>
+                            <h3 class="text-xl font-semibold mb-2">بطارية تدوم طويلاً</h3>
+                            <p class="text-gray-600">استمتع بما يصل إلى يومين من الاستخدام بشحنة واحدة بفضل بطارية بقوة 5000 مللي أمبير.</p>
                         </div>
-                        <!-- Feature 3: Screen -->
                         <div class="feature-item">
                             <div class="text-blue-600 mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold mb-2">Écran Max Vision 6.5"</h3>
-                            <p class="text-gray-600">Plongez au cœur de vos films et jeux préférés avec un écran ultra-large et immersif.</p>
+                            <h3 class="text-xl font-semibold mb-2">شاشة Max Vision بحجم 6.5 بوصة</h3>
+                            <p class="text-gray-600">انغمس في أفلامك وألعابك المفضلة مع شاشة غامرة وواسعة للغاية.</p>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <!-- Gallery Section -->
             <section id="gallery" class="py-20">
                 <div class="container mx-auto px-6 text-center">
-                    <h2 class="text-3xl font-bold mb-12">Un Design Élégant</h2>
+                    <h2 class="text-3xl font-bold mb-12">تصميم أنيق</h2>
                      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <img src="/front.webp">
-                        <img src="/back.jpg">
-                    </div>
+                         <img src="/front.webp">
+                         <img src="/back.jpg">
+                     </div>
                 </div>
             </section>
 
-            <!-- Buy Now Section -->
             <section id="buy" class="bg-blue-600 text-white">
                 <div class="container mx-auto px-6 py-20 text-center">
-                    <h2 class="text-4xl font-bold mb-4">Prêt à passer au Moto G9 ?</h2>
-                    <p class="text-xl mb-8 opacity-90">Ne manquez pas cette offre exceptionnelle.</p>
+                    <h2 class="text-4xl font-bold mb-4">هل أنت مستعد لتجربة Moto G9؟</h2>
+                    <p class="text-xl mb-8 opacity-90">لا تفوت هذا العرض الاستثنائي.</p>
                     <div class="bg-white text-gray-900 inline-block p-6 rounded-lg shadow-xl mb-8">
-                        <span class="text-4xl font-bold">Seulement 20000 DZD</span>
+                        <span class="text-4xl font-bold">فقط بـ 20000 دج</span>
                     </div>
                     <div>
                          <button id="cta-buy-button" class="bg-white text-blue-600 font-bold py-3 px-10 rounded-full text-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105">
-                            Commander le Vôtre
-                        </button>
+                             اطلب نسختك
+                         </button>
                     </div>
                 </div>
             </section>
         </main>
     </div>
 
-    <!-- Order Form Page -->
     <div id="form-page" class="hidden">
         <main class="container mx-auto px-6 py-16 md:py-24 flex flex-col items-center">
             <div class="w-full max-w-lg">
                 <div class="bg-white p-8 rounded-xl shadow-2xl">
                     <div class="flex justify-between items-center mb-6">
-                        <h2 class="text-3xl font-bold text-gray-900">Finaliser votre commande</h2>
-                        <button id="back-button" class="text-gray-500 hover:text-gray-800">&larr; Retour</button>
+                        <h2 class="text-3xl font-bold text-gray-900">إتمام طلبك</h2>
+                        <button id="back-button" class="text-gray-500 hover:text-gray-800">رجوع &rarr;</button>
                     </div>
-                    <p class="text-gray-600 mb-8">Veuillez remplir vos informations pour compléter la commande.</p>
+                    <p class="text-gray-600 mb-8">يرجى ملء معلوماتك لإكمال الطلب.</p>
                     
                     <form id="order-form" class="space-y-6">
                         <div>
-                            <label for="fullName" class="block text-sm font-medium text-gray-700">Nom complet</label>
+                            <label for="fullName" class="block text-sm font-medium text-gray-700">الاسم الكامل</label>
                             <input type="text" id="fullName" name="fullName" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                         </div>
                         
                         <div>
-                            <label for="phoneNumber" class="block text-sm font-medium text-gray-700">Numéro de téléphone</label>
+                            <label for="phoneNumber" class="block text-sm font-medium text-gray-700">رقم الهاتف</label>
                             <input type="tel" id="phoneNumber" name="phoneNumber" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                         </div>
 
                         <div>
-                            <label for="address" class="block text-sm font-medium text-gray-700">Adresse de livraison</label>
+                            <label for="address" class="block text-sm font-medium text-gray-700">عنوان التوصيل</label>
                             <textarea id="address" name="address" rows="3" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                         </div>
 
                         <div>
-                            <label for="quantity" class="block text-sm font-medium text-gray-700">Quantité</label>
+                            <label for="quantity" class="block text-sm font-medium text-gray-700">الكمية</label>
                             <input type="number" id="quantity" name="quantity" value="1" min="1" max="10" required class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
                         </div>
 
                         <div>
                             <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-full shadow-sm text-lg font-medium text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-300">
-                                Envoyer via WhatsApp
+                                إرسال عبر الواتساب
                             </button>
                         </div>
                     </form>
@@ -174,10 +161,9 @@
         </main>
     </div>
 
-    <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2025 Motorola Mobility LLC. Tous droits réservés.</p>
+            <p>&copy; 2025 موتورولا موبيليتي. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
@@ -225,8 +211,8 @@
             event.preventDefault(); // Prevent the form from submitting traditionally
 
             // !!! IMPORTANT: Replace this with your WhatsApp number !!!
-            // Use the international format without '+' or '00'. For example: 33612345678 for a French number.
-            const yourWhatsAppNumber = '1234567890'; // <--- CHANGE THIS NUMBER
+            // Use the international format without '+' or '00'. For example: 213541397454 for an Algerian number.
+            const yourWhatsAppNumber = '213541397454'; // <--- CHANGE THIS NUMBER
 
             // Get form values
             const fullName = document.getElementById('fullName').value;
@@ -236,22 +222,22 @@
 
             // Create the message
             const message = `
-Bonjour, je souhaite commander :
+مرحبًا، أود أن أطلب:
 ---------------------------------
-Produit: Motorola G9
-Quantité: ${quantity}
+المنتج: Motorola G9
+الكمية: ${quantity}
 ---------------------------------
-Mes informations :
-Nom complet: ${fullName}
-Numéro de téléphone: ${phoneNumber}
-Adresse: ${address}
+معلوماتي:
+الاسم الكامل: ${fullName}
+رقم الهاتف: ${phoneNumber}
+العنوان: ${address}
             `;
 
             // Encode the message for the URL
             const encodedMessage = encodeURIComponent(message.trim());
 
             // Create the WhatsApp URL
-            const whatsappURL = `https://wa.me/${0541397454}?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/${yourWhatsAppNumber}?text=${encodedMessage}`;
 
             // Redirect the user to WhatsApp
             window.open(whatsappURL, '_blank');
